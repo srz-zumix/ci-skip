@@ -1,0 +1,9 @@
+build:
+    environment:
+        python: 3.6.0
+    tests:
+        override:
+            - echo OK
+filter:
+    excluded_paths:
+        - '*'

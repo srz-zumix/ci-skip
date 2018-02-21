@@ -1,0 +1,17 @@
+version: '1.0'
+steps:
+  BuildingDockerImage:
+    title: Building Docker Image
+    type: build
+    image_name: srzzumix/ciskip
+    working_directory: ./
+    dockerfile:
+      content: |-
+        FROM ubuntu:latest
+
+        COPY . /usr/src/myapp
+        WORKDIR /usr/src/myapp
+
+        # Run your app
+        # CMD start.sh
+    tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
