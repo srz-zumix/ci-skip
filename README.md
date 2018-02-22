@@ -21,7 +21,11 @@ CI skip comment
 Only the head/last commit message is checked ?
 --------------------------------------------------
 
-|YES|NO|
+|Only the head/last commit| all commit|
 |:--|:--|
-|||
+|Bitrise||
+
+Github commit status
+--------------------------------------------------
+https://github.com/srz-zumix/ci-skip/commits/master
 
