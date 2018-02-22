@@ -21,9 +21,18 @@ CI skip comment
 Only the head/last commit message is checked ?
 --------------------------------------------------
 
-|Only the head/last commit| all commit|
+|Only the head/last commit|all commit|
 |:--|:--|
 |Bitrise||
+
+Whether the skip build remains in the history
+--------------------------------------------------
+
+|CI|YES/NO|
+|:--|:--|
+|AppVeyor|NO|
+|Bitrise||
+
 
 Github commit status
 --------------------------------------------------
