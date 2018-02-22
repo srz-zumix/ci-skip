@@ -30,9 +30,17 @@ Whether the skip build remains in the history
 
 |CI|YES/NO|
 |:--|:--|
-|AppVeyor|NO|
-|Bitrise||
-
+|[AppVeyor](https://www.appveyor.com)|NO|
+|[Bitrise](https://www.bitrise.io)|NO|
+|[Circle CI](https://circleci.com)|YES (Status SKIPPED)|
+|[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
+|[Codeship](https://codeship.com/)|NO|
+|[Rocro](https://rocro.com/)|--|
+|[Scrutinizer](https://scrutinizer-ci.com)|NO|
+|[Semaphore](https://semaphoreci.com)|NO|
+|[Shippable](http://shippable.com)|NO|
+|[Travis CI](https://travis-ci.org/)|NO|
+|[wercker](http://www.wercker.com/)|NO|
 
 Github commit status
 --------------------------------------------------
