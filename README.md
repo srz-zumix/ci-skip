@@ -1,7 +1,7 @@
 # ci-skip
 ci skip comment
 
-CI list
+CI skip comment
 --------------------------------------------------
 
 |CI|Status|[ci skip]|[skip ci]|other|custom|
@@ -17,3 +17,11 @@ CI list
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-skip)|[x]|[x]|||
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#Skipping-a-build)|[![Build Status](https://travis-ci.org/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.org/srz-zumix/ci-skip)|[x]|[x]| | |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)|[x]|[x]| | |
+
+Only the head/last commit message is checked ?
+--------------------------------------------------
+
+|YES|NO|
+|:--|:--|
+|||
+
