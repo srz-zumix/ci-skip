@@ -15,3 +15,8 @@ steps:
         # Run your app
         # CMD start.sh
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
+    when:
+      condition:
+        all:
+          noSkipCiInCommitMessage: |
+            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false
