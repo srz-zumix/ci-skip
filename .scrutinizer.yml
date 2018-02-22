@@ -7,3 +7,9 @@ build:
 filter:
     excluded_paths:
         - '*'
+
+checks:
+    python:
+        code_rating: true
+        duplicate_code: true
+        classes_valid_slots: true
