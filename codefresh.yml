@@ -19,5 +19,4 @@ steps:
       condition:
         all:
           noSkipCiInCommitMessage: |
-            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false &&
-            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[skip ci]") == false
+            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false && includes(lower("${{CF_COMMIT_MESSAGE}}"), "[skip ci]") == false
