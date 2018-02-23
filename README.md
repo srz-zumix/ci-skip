@@ -21,9 +21,19 @@ CI skip comment
 Only the head/last commit message is checked ?
 --------------------------------------------------
 
-|Only the head/last commit|all commit|
+|CI|last/all|
 |:--|:--|
-|Bitrise||
+|[AppVeyor](https://www.appveyor.com)||
+|[Bitrise](https://www.bitrise.io)|last|
+|[Circle CI](https://circleci.com)||
+|[Codefresh](https://codefresh.io/)||
+|[Codeship](https://codeship.com/)||
+|[Rocro](https://rocro.com/)||
+|[Scrutinizer](https://scrutinizer-ci.com)||
+|[Semaphore](https://semaphoreci.com)||
+|[Shippable](http://shippable.com)||
+|[Travis CI](https://travis-ci.org/)|
+|[wercker](http://www.wercker.com/)||
 
 Whether the skip build remains in the history
 --------------------------------------------------
