@@ -18,22 +18,10 @@ CI skip comment
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#Skipping-a-build)|[![Build Status](https://travis-ci.org/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.org/srz-zumix/ci-skip)|[x]|[x]| | |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)|[x]|[x]| | |
 
-Only the head/last commit message is checked ?
+Only the head/last commit message is checked
 --------------------------------------------------
 
-|CI|last/all|
-|:--|:--|
-|[AppVeyor](https://www.appveyor.com)||
-|[Bitrise](https://www.bitrise.io)|last|
-|[Circle CI](https://circleci.com)||
-|[Codefresh](https://codefresh.io/)||
-|[Codeship](https://codeship.com/)||
-|[Rocro](https://rocro.com/)||
-|[Scrutinizer](https://scrutinizer-ci.com)||
-|[Semaphore](https://semaphoreci.com)||
-|[Shippable](http://shippable.com)||
-|[Travis CI](https://travis-ci.org/)|
-|[wercker](http://www.wercker.com/)||
+If you push more than one commit, only the last ("head") commit's message will be checked for the skip ci pattern!
 
 Whether the skip build remains in the history
 --------------------------------------------------
