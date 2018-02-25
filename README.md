@@ -1,4 +1,5 @@
 # ci-skip
+
 ci skip comment
 
 CI skip comment
@@ -42,5 +43,6 @@ Whether the skip build remains in the history
 
 Github commit status
 --------------------------------------------------
+
 https://github.com/srz-zumix/ci-skip/commits/master
 
