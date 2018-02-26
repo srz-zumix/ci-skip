@@ -11,9 +11,6 @@ steps:
 
         COPY . /usr/src/myapp
         WORKDIR /usr/src/myapp
-
-        # Run your app
-        # CMD start.sh
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
     when:
       condition:
