@@ -21,6 +21,10 @@ CI skip comment
 Only the head/last commit message is checked
 --------------------------------------------------
 
+* Travis CI  
+Travis CI is build with all commit, If you are only interested in building the most recent commit you can use [Auto Cancellation](https://docs.travis-ci.com/user/customizing-the-build/#Building-only-the-latest-commit).  
+Commit of the skip comment is not queued, so the previous commit will not be auto canceled.
+* Other than  
 If you push more than one commit, only the last ("head") commit's message will be checked for the skip ci pattern!
 
 Whether the skip build remains in the history
