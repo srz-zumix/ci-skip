@@ -1,0 +1,14 @@
+- pipeline: "build"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "master"
+  actions:
+  - action: "Execute: echo OK"
+    type: "BUILD"
+    working_directory: "/buddy/ci-skip"
+    docker_image_name: "library/ubuntu"
+    docker_image_tag: "16.04"
+    execute_commands:
+    - "echo OK"
+    mount_filesystem_path: "/buddy/ci-skip"
+    shell: "BASH"
+    trigger_condition: "ALWAYS"
