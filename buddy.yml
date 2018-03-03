@@ -2,7 +2,7 @@
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "master"
   actions:
-  - action: "Execute: echo OK"
+  - action: "Execute: Always Success"
     type: "BUILD"
     working_directory: "/buddy/ci-skip"
     docker_image_name: "library/ubuntu"
