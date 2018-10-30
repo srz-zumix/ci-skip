@@ -17,7 +17,7 @@ CI skip comment
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|[x]|[x]|||
 |[Semaphore](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|[x]|[x]|||
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-skip)|[x]|[x]|||
-|[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#Skipping-a-build)|[![Build Status](https://travis-ci.org/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.org/srz-zumix/ci-skip)|[x]|[x]| | |
+|[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#Skipping-a-build)|[![Build Status](https://travis-ci.com/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-skip)|[x]|[x]| | |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)|[x]|[x]| | |
 
 Only the head/last commit message is checked
@@ -44,7 +44,7 @@ Whether the skip build remains in the history
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore](https://semaphoreci.com)|NO|
 |[Shippable](http://shippable.com)|NO|
-|[Travis CI](https://travis-ci.org/)|NO|
+|[Travis CI](https://travis-ci.com/)|NO|
 |[wercker](http://www.wercker.com/)|NO|
 
 Github commit status
