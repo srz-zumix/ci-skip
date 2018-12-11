@@ -8,7 +8,7 @@ CI skip comment
 |CI|Status|[ci skip]|[skip ci]|other|custom|
 |:--|:--|:--|:--|:--|:--|
 |[AppVeyor](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits)|[![Build status](https://ci.appveyor.com/api/projects/status/yagkbieyahgxx7cd?svg=true)](https://ci.appveyor.com/project/srz-zumix/ci-skip)|[x]|[x]|[skip appveyor]| [doc](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits) |
-|[AzurePipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=vsts)|[![Build Status](https://dev.azure.com/srz-zumix/ci-skip/_apis/build/status/ci-skip-CI)](https://dev.azure.com/srz-zumix/ci-skip/_build/latest?definitionId=6)|||||
+|[AzurePipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=vsts)|[![Build Status](https://dev.azure.com/srz-zumix/ci-skip/_apis/build/status/ci-skip-CI)](https://dev.azure.com/srz-zumix/ci-skip/_build/latest?definitionId=6)|||\*\*\*NO_CI***|[issue](https://github.com/Microsoft/azure-pipelines-agent/issues/858)|
 |[Bitrise](http://devcenter.bitrise.io/tips-and-tricks/skip-a-build/)|[![Build Status](https://app.bitrise.io/app/888b3fc92ca7352c/status.svg?token=1zo_JkiGKmgbqRGxtLdieQ&branch=master)](https://app.bitrise.io/app/888b3fc92ca7352c)|[x]|[x]|||
 |[Buddy](https://buddy.works/knowledge/deployments/how-use-commit-commands)|[![buddy pipeline](https://app.buddy.works/zumixcpp/ci-skip/pipelines/pipeline/127277/badge.svg?token=5e58135ab4831252209e7b1fe75bfe9de669b0dc7e95ed4316eebad2187d59a0 "buddy pipeline")](https://app.buddy.works/zumixcpp/ci-skip/pipelines/pipeline/127277)|||--skip||
 |[Circle CI](https://circleci.com/docs/1.0/skip-a-build/)|[![CircleCI](https://circleci.com/gh/srz-zumix/ci-skip.svg?style=svg)](https://circleci.com/gh/srz-zumix/ci-skip)|[x]|[x]| | |
