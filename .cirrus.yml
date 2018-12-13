@@ -1,0 +1,4 @@
+cirrus_gcc_test_task:
+  container:
+    image: gcc:latest
+  test_script: echo hello world.
