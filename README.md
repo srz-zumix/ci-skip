@@ -1,8 +1,6 @@
 # ci-skip
 
-ci skip comment
-
-CI skip comment
+CI skip commit meesage
 --------------------------------------------------
 
 |CI|Status|[ci skip]|[skip ci]|other|custom||
