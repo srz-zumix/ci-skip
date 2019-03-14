@@ -1,0 +1,11 @@
+kind: pipeline
+name: main
+
+clone:
+  depth: 1
+
+steps:
+- name: bench
+  image: gcc
+  commands:
+    - echo test
