@@ -43,7 +43,7 @@ Whether the skip build remains in the history
 |[Cirrus CI](https://cirrus-ci.org/)|NO|
 |[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
 |[Codeship](https://codeship.com/)|NO|
-|[Drone Cloud](https://cloud.drone.io/)||
+|[Drone Cloud](https://cloud.drone.io/)|NO|
 |[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore](https://semaphoreci.com)|NO|
