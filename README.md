@@ -14,6 +14,7 @@ CI skip commit meesage
 |[Codefresh](https://docs.codefresh.io/v1.0/docs/conditional-execution-of-steps)|[![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=srz-zumix&repoName=ci-skip&branch=master&pipelineName=ci-skip&accountName=srz-zumix&type=cf-1)]( https://g.codefresh.io/repositories/srz-zumix/ci-skip/builds?filter=trigger:build;branch:master;service:5a8d6d36d78094000162db49~ci-skip)||||[doc1](https://docs.codefresh.io/docs/build-1), [doc2](https://docs.codefresh.io/docs/handling-commit-messages-with-quotes)|
 [Codeship](https://documentation.codeship.com/general/projects/skipping-builds/)|[ ![Codeship Status for srz-zumix/ci-skip](https://app.codeship.com/projects/00a08490-f92d-0135-3ab5-029b8e2f450f/status?branch=master)](https://app.codeship.com/projects/278452)|[x]|[x]|--skip-ci,--ci-skip||
 |[Drone Cloud](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-skip/status.svg)](https://cloud.drone.io/srz-zumix/ci-skip)|[x]|[x]|\*\*\*no_ci\*\*\*|[code](https://github.com/drone/drone/blob/master/trigger/skip.go#L61:L71)|
+|[GitHub Actions](https://github.com/features/actions)||[x]|[x]|||
 |[Rocro (INSPECODE)](https://rocro.com/)|[![Job Status](https://inspecode.rocro.com/badges/github.com/srz-zumix/ci-skip/status?token=8V-M4dzbmfp7kXb7GgbTPuRnUZEXNJDqJby9hQ0IX9E)](https://inspecode.rocro.com/jobs/github.com/srz-zumix/ci-skip/latest?completed=true)||||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|[x]|[x]|||
 |[Semaphore](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|[x]|[x]|||
@@ -44,9 +45,11 @@ Whether the skip build remains in the history
 |[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
 |[Codeship](https://codeship.com/)|NO|
 |[Drone Cloud](https://cloud.drone.io/)|NO|
+|[GitHub Actions](https://github.com/features/actions)||
 |[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore](https://semaphoreci.com)|NO|
+|[Semaphore 2.0](https://semaphoreci.com)|NO|
 |[Shippable](http://shippable.com)|NO|
 |[Travis CI](https://travis-ci.com/)|NO|
 |[wercker](http://www.wercker.com/)|NO|
