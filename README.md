@@ -17,7 +17,8 @@ CI skip commit meesage
 |[GitHub Actions](https://github.com/features/actions)||[x]|[x]|||
 |[Rocro (INSPECODE)](https://rocro.com/)|[![Job Status](https://inspecode.rocro.com/badges/github.com/srz-zumix/ci-skip/status?token=8V-M4dzbmfp7kXb7GgbTPuRnUZEXNJDqJby9hQ0IX9E)](https://inspecode.rocro.com/jobs/github.com/srz-zumix/ci-skip/latest?completed=true)||||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|[x]|[x]|||
-|[Semaphore](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|[x]|[x]|||
+|[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|[x]|[x]|||
+|[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-skip)|[Build](https://srz-zumix.semaphoreci.com/projects/ci-skip)|[x]|[x]|||
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-skip)|[x]|[x]|||
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#skipping-a-build)|[![Build Status](https://travis-ci.com/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-skip)|[x]|[x]|[skip KEYWORD] or [KEYWORD skip]<br> (KEYWORD: ci, travis, travis ci, travis-ci, or travisci)| |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)|[x]|[x]| | |
@@ -48,8 +49,8 @@ Whether the skip build remains in the history
 |[GitHub Actions](https://github.com/features/actions)||
 |[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
-|[Semaphore](https://semaphoreci.com)|NO|
-|[Semaphore 2.0](https://semaphoreci.com)|NO|
+|[Semaphore CI](https://semaphoreci.com)|NO|
+|[Semaphore CI 2.0](https://semaphoreci.com)|NO|
 |[Shippable](http://shippable.com)|NO|
 |[Travis CI](https://travis-ci.com/)|NO|
 |[wercker](http://www.wercker.com/)|NO|
