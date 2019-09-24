@@ -41,7 +41,7 @@ Whether the skip build remains in the history
 |[Bitrise](https://www.bitrise.io)|NO|
 |[Buddy](https://buddy.works)|YES (Activity Log)|
 |[Circle CI](https://circleci.com)|YES (Status SKIPPED)|
-|[Cirrus CI](https://cirrus-ci.org/)|NO|
+|[Cirrus CI](https://cirrus-ci.org/)|YES (Status SKIPPED)|
 |[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
 |[Codeship](https://codeship.com/)|NO|
 |[Drone Cloud](https://cloud.drone.io/)|NO|
