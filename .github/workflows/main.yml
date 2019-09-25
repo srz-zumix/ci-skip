@@ -7,7 +7,7 @@ on: [push]
 #  if: !contains(github.head_commit.message, "[gh skip]")
 
 jobs:
-  build:
+  prepare:
     runs-on: ubuntu-latest
     
     steps:
