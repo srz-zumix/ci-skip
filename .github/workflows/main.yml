@@ -2,6 +2,10 @@ name: CI
 
 on: [push]
 
+# Hope can control here
+# on:
+#  if: !contains(github.head_commit.message, "[gh skip]")
+
 jobs:
   build:
 
@@ -12,6 +16,7 @@ jobs:
     - name: Show Event
       run: cat ${GITHUB_EVENT_PATH}
     - name: Run a one-line script
+      if: !contains(github.head_commit.message, "[gh skip]")
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
