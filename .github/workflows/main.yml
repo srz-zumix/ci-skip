@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Run a one-line script
+    - name: Check condition
       if: "! contains(github.event.head_commit.message, '[gh skip]')"
       env:
         GITHUB_CONTEXT: ${{ toJson(github) }}
@@ -28,7 +28,7 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
-      if: github.event_name == 'pull_request'
+      if: "! contains(github.event.head_commit.message, '[gh skip]')"
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
