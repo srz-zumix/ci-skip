@@ -8,7 +8,14 @@ on: [push]
 
 jobs:
   build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Run a one-line script
+      if: "! contains(github.head_commit.message, '[gh skip]')"
+      run: echo check condition
 
+  build:
     runs-on: ubuntu-latest
     
     steps:
@@ -16,8 +23,6 @@ jobs:
     - name: Show Event
       run: cat ${GITHUB_EVENT_PATH}
     - name: Run a one-line script
-      if: "! contains('test', '[gh skip]')"
-#      if: ! ${{ contains(${{ github.head_commit.message }}, '[gh skip]') }}
       run: echo Hello, world!
     - name: Run a multi-line script
       if: github.event_name == 'pull_request'
