@@ -12,10 +12,10 @@ jobs:
     
     steps:
     - name: Run a one-line script
-      if: "! contains(github.head_commit.message, '[gh skip]')"
+      if: "! contains(github.event.head_commit.message, '[gh skip]')"
       env:
         GITHUB_CONTEXT: ${{ toJson(github) }}
-      run: echo "$GITHUB_CONTEXT" ${{ github['sha'] }}
+      run: echo "$GITHUB_CONTEXT" ${{ github.event.head_commit.message }}
 
   build:
     runs-on: ubuntu-latest
