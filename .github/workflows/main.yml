@@ -12,8 +12,8 @@ jobs:
     
     steps:
     - name: Run a one-line script
-      if: "! contains(github.head_commit.message, '[gh skip]')"
-      run: echo check ${{ github.head_commit.message }}
+      if: "! contains(github['head_commit']['message'], '[gh skip]')"
+      run: echo check ${{ github['head_commit']['message'] }} github['head_commit']['message']
 
   build:
     runs-on: ubuntu-latest
