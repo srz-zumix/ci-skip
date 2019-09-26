@@ -46,7 +46,7 @@ Whether the skip build remains in the history
 |[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
 |[Codeship](https://codeship.com/)|NO|
 |[Drone Cloud](https://cloud.drone.io/)|NO|
-|[GitHub Actions](https://github.com/features/actions)||
+|[GitHub Actions](https://github.com/features/actions)|--|
 |[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore CI](https://semaphoreci.com)|NO|
