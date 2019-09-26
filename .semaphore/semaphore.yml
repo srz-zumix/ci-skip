@@ -1,0 +1,23 @@
+# Find an example for your language and learn about the core features through
+# the guided tour:
+# https://docs.semaphoreci.com/category/58-programming-languages
+# https://docs.semaphoreci.com/category/56-guided-tour
+version: v1.0
+name: Hello Semaphore
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: Simple example
+    task:
+      env_vars:
+        - name: APP_ENV
+          value: prod
+      jobs:
+      - name: Download our code
+        commands:
+          - echo "Hello from Semaphore!"
+          - echo $APP_ENV
+          - checkout
+          - ls -alh
