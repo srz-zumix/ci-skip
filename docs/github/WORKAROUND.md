@@ -20,7 +20,7 @@ jobs:
         echo "$GITHUB_CONTEXT"
 ```
 
-## if and need
+## if and needs
 
 * [job.if](https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idif)
   * [job.steps.if](https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idstepsif)
