@@ -10,7 +10,7 @@ jobs:
   prepare:
     if: "! contains(github.event.head_commit.message, '[ci skip]')"
     steps:
-      run: echo "${{ github.event.head_commit.message }}"
+      - run: echo "${{ github.event.head_commit.message }}"
 
   info:
     runs-on: ubuntu-latest
