@@ -2,3 +2,14 @@ language: python
 python: 2.7
 script:
   - echo OK
+
+jobs:
+  - name: project_build_prepare
+    type: runSh
+    steps:
+      - IN: ci-skip_gitRepo
+      - TASK:
+          script:
+            - echo "Preparing your build..."
+      - OUT: ci-skip_ciRepo
+        replicate: ci-skip_gitRepo
