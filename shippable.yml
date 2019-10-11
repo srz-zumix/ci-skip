@@ -1,10 +1,6 @@
 language: python
 python: 2.7
 
-build:
-  ci:
-    - echo OK
-
 jobs:
   - name: test
     type: runSh
