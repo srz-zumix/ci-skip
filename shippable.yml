@@ -1,9 +1,18 @@
 language: python
 python: 2.7
-script:
-  - echo OK
+
+build:
+  ci:
+    - echo OK
 
 jobs:
+  - name: test
+    type: runSh
+    steps:
+      - IN: ci-skip_runCI
+      - TASK:
+          script:
+            - echo "test..."
   - name: project_build_prepare
     type: runSh
     steps:
