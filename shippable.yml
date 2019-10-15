@@ -1,14 +1,9 @@
 language: python
 python: 2.7
+script:
+  - echo OK
 
 jobs:
-  - name: test
-    type: runSh
-    steps:
-      - IN: ci-skip_runCI
-      - TASK:
-          script:
-            - echo "test..."
   - name: project_build_prepare
     type: runSh
     steps:
@@ -18,3 +13,19 @@ jobs:
             - echo "Preparing your build..."
       - OUT: ci-skip_ciRepo
         replicate: ci-skip_gitRepo
+
+  - name: ci-skip_runCI
+    type: runCI
+    steps:
+      - TASK: managed
+
+  - name: ci-skip_postSh
+    type: runSh
+    triggerMode: parallel
+    allowPublicAccess: true
+    runtime:
+      container: false
+    steps:
+      - TASK:
+          script:
+            - echo "post your build..."
