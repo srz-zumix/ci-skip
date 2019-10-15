@@ -35,6 +35,7 @@ jobs:
     runtime:
       container: false
     steps:
+      - IN: ci-skip_runCI
       - TASK:
           script:
             - echo "post your build..."
