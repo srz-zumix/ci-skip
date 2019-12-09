@@ -48,7 +48,7 @@ Whether the skip build remains in the history
 |[Codeship](https://codeship.com/)|NO|
 |[Drone Cloud](https://cloud.drone.io/)|NO|
 |[GitHub Actions](https://github.com/features/actions)|NO|
-|[Peakflow](https://www.peakflow.io/)||
+|[Peakflow](https://www.peakflow.io/)|--|
 |[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore CI](https://semaphoreci.com)|NO|
