@@ -15,7 +15,7 @@ CI skip commit meesage
 [Codeship](https://documentation.codeship.com/general/projects/skipping-builds/)|[ ![Codeship Status for srz-zumix/ci-skip](https://app.codeship.com/projects/00a08490-f92d-0135-3ab5-029b8e2f450f/status?branch=master)](https://app.codeship.com/projects/278452)|:ballot_box_with_check:|:ballot_box_with_check:|--skip-ci,--ci-skip||
 |[Drone Cloud](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-skip/status.svg)](https://cloud.drone.io/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|\*\*\*no_ci\*\*\*|[code](https://github.com/drone/drone/blob/master/trigger/skip.go#L61:L71)|
 |[GitHub Actions](https://github.com/features/actions)|[![GitHub Actions Status](https://github.com/srz-zumix/ci-skip/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/srz-zumix/ci-skip/actions)|:x:|:x:||[workaround](./docs/github/WORKAROUND.md)|
-[![Peakflow Build Status](https://www.peakflow.io/en/projects/ci-skip/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/ci-skip/build-groups?build_groups_q%5Bbranch_name_cont%5D=master)
+|[Peakflow](https://www.peakflow.io/en/faq)|[![Peakflow Build Status](https://www.peakflow.io/en/projects/ci-skip/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/ci-skip/build-groups?build_groups_q%5Bbranch_name_cont%5D=master)||||
 |[Rocro (INSPECODE)](https://rocro.com/)|[![Job Status](https://inspecode.rocro.com/badges/github.com/srz-zumix/ci-skip/status?token=8V-M4dzbmfp7kXb7GgbTPuRnUZEXNJDqJby9hQ0IX9E)](https://inspecode.rocro.com/jobs/github.com/srz-zumix/ci-skip/latest?completed=true)|:x:|:x:||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
@@ -48,6 +48,7 @@ Whether the skip build remains in the history
 |[Codeship](https://codeship.com/)|NO|
 |[Drone Cloud](https://cloud.drone.io/)|NO|
 |[GitHub Actions](https://github.com/features/actions)|NO|
+|[Peakflow](https://www.peakflow.io/)||
 |[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore CI](https://semaphoreci.com)|NO|
