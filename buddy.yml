@@ -1,6 +1,7 @@
 - pipeline: "build"
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "master"
+  auto_clear_cache: true
   actions:
   - action: "Execute: Always Success"
     type: "BUILD"
