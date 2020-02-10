@@ -48,7 +48,6 @@ Whether the skip build remains in the history
 |[Drone Cloud](https://cloud.drone.io/)|NO|
 |[GitHub Actions](https://github.com/features/actions)|NO|
 |[Peakflow](https://www.peakflow.io/)|--|
-|[Rocro](https://rocro.com/)|--|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore CI](https://semaphoreci.com)|NO|
 |[Semaphore CI 2.0](https://semaphoreci.com)|NO|
