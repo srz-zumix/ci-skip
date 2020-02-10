@@ -3,7 +3,7 @@
 CI skip commit meesage
 --------------------------------------------------
 
-|CI|Status|[ci skip]|[skip ci]|other|custom|
+|CI|Status|[ci skip]|[skip ci]|Other|Custom|
 |:--|:--|:--|:--|:--|:--|
 |[AppVeyor](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits)|[![Build status](https://ci.appveyor.com/api/projects/status/yagkbieyahgxx7cd?svg=true)](https://ci.appveyor.com/project/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|[skip appveyor]| [doc](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits) |
 |[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#skipping-ci-for-individual-commits)|[![Build Status](https://dev.azure.com/srz-zumix/ci-skip/_apis/build/status/ci-skip-CI)](https://dev.azure.com/srz-zumix/ci-skip/_build/latest?definitionId=6)|:ballot_box_with_check:|:ballot_box_with_check:|skip-checks: true, \*\*\*NO_CI\*\*\*,<br> [skip KEYWORD] or [KEYWORD skip]<br> (KEYWORD: azurepipelines, azpipelines, azp)|[workaround](https://github.com/Microsoft/azure-pipelines-agent/issues/858#issuecomment-457027046)|
@@ -15,7 +15,7 @@ CI skip commit meesage
 [Codeship](https://documentation.codeship.com/general/projects/skipping-builds/)|[ ![Codeship Status for srz-zumix/ci-skip](https://app.codeship.com/projects/00a08490-f92d-0135-3ab5-029b8e2f450f/status?branch=master)](https://app.codeship.com/projects/278452)|:ballot_box_with_check:|:ballot_box_with_check:|--skip-ci,--ci-skip||
 |[Drone Cloud](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-skip/status.svg)](https://cloud.drone.io/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|\*\*\*no_ci\*\*\*|[code](https://github.com/drone/drone/blob/master/trigger/skip.go#L61:L71)|
 |[GitHub Actions](https://github.com/features/actions)|[![GitHub Actions Status](https://github.com/srz-zumix/ci-skip/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/srz-zumix/ci-skip/actions)|:x:|:x:||[workaround](./docs/github/WORKAROUND.md)|
-|[Peakflow](https://www.peakflow.io/en/faq)|[![Peakflow Build Status](https://www.peakflow.io/en/projects/ci-skip/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/ci-skip/build-groups?build_groups_q%5Bbranch_name_cont%5D=master)|:x:|:x:||
+|[Peakflow](https://www.peakflow.io/en/faq)|[![Peakflow Build Status](https://www.peakflow.io/en/projects/ci-skip/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/ci-skip/build-groups?build_groups_q%5Bbranch_name_cont%5D=master)|:ballot_box_with_check:|:ballot_box_with_check:||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-skip)|[![Semaphore 2.0 Build Status](https://srz-zumix.semaphoreci.com/badges/ci-skip/branches/master.svg)](https://srz-zumix.semaphoreci.com/projects/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
@@ -47,7 +47,7 @@ Whether the skip build remains in the history
 |[Codeship](https://codeship.com/)|NO|
 |[Drone Cloud](https://cloud.drone.io/)|NO|
 |[GitHub Actions](https://github.com/features/actions)|NO|
-|[Peakflow](https://www.peakflow.io/)|--|
+|[Peakflow](https://www.peakflow.io/)|NO|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore CI](https://semaphoreci.com)|NO|
 |[Semaphore CI 2.0](https://semaphoreci.com)|NO|
