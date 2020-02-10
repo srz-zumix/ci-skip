@@ -3,7 +3,7 @@
 CI skip commit meesage
 --------------------------------------------------
 
-|CI|Status|[ci skip]|[skip ci]|other|custom|
+|CI|Status|[ci skip]|[skip ci]|Other|Custom|
 |:--|:--|:--|:--|:--|:--|
 |[AppVeyor](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits)|[![Build status](https://ci.appveyor.com/api/projects/status/yagkbieyahgxx7cd?svg=true)](https://ci.appveyor.com/project/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|[skip appveyor]| [doc](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits) |
 |[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#skipping-ci-for-individual-commits)|[![Build Status](https://dev.azure.com/srz-zumix/ci-skip/_apis/build/status/ci-skip-CI)](https://dev.azure.com/srz-zumix/ci-skip/_build/latest?definitionId=6)|:ballot_box_with_check:|:ballot_box_with_check:|skip-checks: true, \*\*\*NO_CI\*\*\*,<br> [skip KEYWORD] or [KEYWORD skip]<br> (KEYWORD: azurepipelines, azpipelines, azp)|[workaround](https://github.com/Microsoft/azure-pipelines-agent/issues/858#issuecomment-457027046)|
