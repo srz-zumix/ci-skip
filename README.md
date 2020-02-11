@@ -13,7 +13,7 @@ CI skip commit meesage
 |[Cirrus CI](https://cirrus-ci.org/guide/writing-tasks/#conditional-task-execution)|[![Cirrus Build Status](https://api.cirrus-ci.com/github/srz-zumix/ci-skip.svg?branch=master)](https://cirrus-ci.com/github/srz-zumix/ci-skip/master)|:ballot_box_with_check:|:ballot_box_with_check:| | |
 |[Codefresh](https://docs.codefresh.io/v1.0/docs/conditional-execution-of-steps)|[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/srz-zumix/srz-zumix%2Fci-skip%2Fci-skip?type=cf-2)]( https://g.codefresh.io/public/accounts/srz-zumix/pipelines/5a8d6d36d78094000162db49)|:x:|:x:||[doc1](https://docs.codefresh.io/docs/build-1), [doc2](https://docs.codefresh.io/docs/handling-commit-messages-with-quotes)|
 [Codeship](https://documentation.codeship.com/general/projects/skipping-builds/)|[ ![Codeship Status for srz-zumix/ci-skip](https://app.codeship.com/projects/00a08490-f92d-0135-3ab5-029b8e2f450f/status?branch=master)](https://app.codeship.com/projects/278452)|:ballot_box_with_check:|:ballot_box_with_check:|--skip-ci,--ci-skip||
-|[Drone Cloud](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-skip/status.svg)](https://cloud.drone.io/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|\*\*\*no_ci\*\*\*|[code](https://github.com/drone/drone/blob/master/trigger/skip.go#L61:L71)|
+|[Drone](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-skip/status.svg)](https://cloud.drone.io/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|\*\*\*no_ci\*\*\*|[code](https://github.com/drone/drone/blob/master/trigger/skip.go#L61:L71)|
 |[GitHub Actions](https://github.com/features/actions)|[![GitHub Actions Status](https://github.com/srz-zumix/ci-skip/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/srz-zumix/ci-skip/actions)|:x:|:x:||[workaround](./docs/github/WORKAROUND.md)|
 |[Peakflow](https://www.peakflow.io/en/faq)|[![Peakflow Build Status](https://www.peakflow.io/en/projects/ci-skip/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/ci-skip/build-groups?build_groups_q%5Bbranch_name_cont%5D=master)|:ballot_box_with_check:|:ballot_box_with_check:||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|:ballot_box_with_check:|:ballot_box_with_check:|||
@@ -45,7 +45,7 @@ Whether the skip build remains in the history
 |[Cirrus CI](https://cirrus-ci.org/)|YES (Status SKIPPED)|
 |[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
 |[Codeship](https://codeship.com/)|NO|
-|[Drone Cloud](https://cloud.drone.io/)|NO|
+|[Drone](https://cloud.drone.io/)|NO|
 |[GitHub Actions](https://github.com/features/actions)|NO|
 |[Peakflow](https://www.peakflow.io/)|NO|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
