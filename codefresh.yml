@@ -15,8 +15,10 @@ steps:
     when:
       condition:
         all:
-          noSkipCiInCommitMessage: |
-            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false && includes(lower("${{CF_COMMIT_MESSAGE}}"), "[skip ci]") == false
+          noSkipCiInCommitMessageCiSkip: |
+            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false
+          # noSkipCiInCommitMessageSkipCI: |
+          #   includes(lower("${{CF_COMMIT_MESSAGE}}"), "[skip ci]") == false
           noSkipCiInCommitMessage2: |
             includes(lower("${{CF_COMMIT_MESSAGE}}"), "[skip codefresh]") == false
 
