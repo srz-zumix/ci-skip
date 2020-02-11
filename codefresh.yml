@@ -13,7 +13,7 @@ steps:
         WORKDIR /usr/src/myapp
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
     when:
-      condition:
+      condition: &skip-condition
         all:
           noSkipCiInCommitMessageCiSkip: |
             includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false
@@ -36,7 +36,4 @@ steps:
       content: >-
         cat /proc/cpuinfo
     when:
-      condition:
-        all:
-          noSkipCiInCommitMessage: |
-            includes(lower("${{CF_COMMIT_MESSAGE}}"), "[ci skip]") == false && includes(lower("${{CF_COMMIT_MESSAGE}}"), "[skip ci]") == false
+      condition: *skip-condition
