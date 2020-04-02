@@ -1,7 +1,6 @@
 # ci-skip
 
-CI skip commit meesage
---------------------------------------------------
+## CI skip commit meesage
 
 |CI|Status|[ci skip]|[skip ci]|Other|Custom|
 |:--|:--|:--|:--|:--|:--|
@@ -23,8 +22,7 @@ CI skip commit meesage
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#skipping-a-build)|[![Build Status](https://travis-ci.com/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|[skip KEYWORD] or [KEYWORD skip]<br> (KEYWORD: ci, travis, travis ci, travis-ci, or travisci)| |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)|:ballot_box_with_check:|:ballot_box_with_check:| | |
 
-Only the head/last commit message is checked
---------------------------------------------------
+## Only the head/last commit message is checked
 
 * Travis CI  
 Travis CI is build with all commit, If you are only interested in building the most recent commit you can use [Auto Cancellation](https://docs.travis-ci.com/user/customizing-the-build/#Building-only-the-latest-commit).  
@@ -32,8 +30,7 @@ Commit of the skip comment is not queued, so the previous commit will not be aut
 * Other than  
 If you push more than one commit, only the last ("head") commit's message will be checked for the skip ci pattern!
 
-Whether the skip build remains in the history
---------------------------------------------------
+## Whether the skip build remains in the history
 
 |CI|YES/NO|
 |:--|:--|
@@ -55,13 +52,11 @@ Whether the skip build remains in the history
 |[Travis CI](https://travis-ci.com/)|NO|
 |[wercker](http://www.wercker.com/)|NO|
 
-Github commit status
---------------------------------------------------
+## Github commit status
 
 https://github.com/srz-zumix/ci-skip/commits/master
 
 
-Repository for CI service specification survey
---------------------------------------------------
+## Repository for CI service specification survey
 
 * [ci-specs](https://github.com/srz-zumix/ci-specs)
