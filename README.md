@@ -15,7 +15,7 @@
 |[Drone](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-skip/status.svg)](https://cloud.drone.io/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|\*\*\*no_ci\*\*\*|[code](https://github.com/drone/drone/blob/master/trigger/skip.go#L61:L71)|
 |[GitHub Actions](https://github.com/features/actions)|[![GitHub Actions Status](https://github.com/srz-zumix/ci-skip/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/srz-zumix/ci-skip/actions)|:x:|:x:||[workaround](./docs/github/WORKAROUND.md)|
 |[Peakflow](https://www.peakflow.io/en/faq)|[![Peakflow Build Status](https://www.peakflow.io/en/projects/ci-skip/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/ci-skip/build-groups?build_groups_q%5Bbranch_name_cont%5D=master)|:ballot_box_with_check:|:ballot_box_with_check:||
-|[Razorops](https://razorops.com/)|-||
+|[Razorops](https://razorops.com/)|-|:x:|:x:|||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-skip/build-status/master)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-skip)|[![Semaphore 2.0 Build Status](https://srz-zumix.semaphoreci.com/badges/ci-skip/branches/master.svg)](https://srz-zumix.semaphoreci.com/projects/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
@@ -44,9 +44,9 @@ If you push more than one commit, only the last ("head") commit's message will b
 |[Codefresh](https://codefresh.io/)|YES (Status SUCCESS)|
 |[Codeship](https://codeship.com/)|NO|
 |[Drone](https://cloud.drone.io/)|NO|
-|[GitHub Actions](https://github.com/features/actions)|NO|
+|[GitHub Actions](https://github.com/features/actions)|YES (Status SKIPPED)|
 |[Peakflow](https://www.peakflow.io/)|NO|
-|[Razorops](https://razorops.com/)||
+|[Razorops](https://razorops.com/)|-|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
 |[Semaphore CI](https://semaphoreci.com)|NO|
 |[Semaphore CI 2.0](https://semaphoreci.com)|NO|
