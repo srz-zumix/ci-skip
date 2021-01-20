@@ -29,8 +29,11 @@ jobs:
     needs: check_commit
     if: ${{ needs.check_commit.outputs.skip_ci != 'true' }}
     steps:
-    - run: |
-      echo ${{ needs.check_commit.outputs.skip_ci }}
+    - name: Show Event
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: |
+        echo "$GITHUB_CONTEXT"
 
   build:
     runs-on: ubuntu-latest
