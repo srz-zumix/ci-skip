@@ -2,3 +2,40 @@ language: python
 python: 2.7
 script:
   - echo OK
+
+#### RESOURCES CONFIG (GLOBAL ACROSS SUBSCRIPTION)
+
+resources:
+  - name: ci-skip_gitRepo
+    type: gitRepo
+    integration: github
+
+#### JOBS CONFIG (GLOBAL ACROSS SUBSCRIPTION)
+
+jobs:
+  - name: project_build_prepare
+    type: runSh
+    steps:
+      - IN: ci-skip_gitRepo
+      - TASK:
+          script:
+            - echo "Preparing your build..."
+      - OUT: ci-skip_ciRepo
+        replicate: ci-skip_gitRepo
+
+  - name: ci-skip_runCI
+    type: runCI
+    steps:
+      - TASK: managed
+
+  - name: ci-skip_postSh
+    type: runSh
+    triggerMode: parallel
+    allowPublicAccess: true
+    runtime:
+      container: false
+    steps:
+      - IN: ci-skip_runCI
+      - TASK:
+          script:
+            - echo "post your build..."
