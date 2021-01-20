@@ -29,6 +29,8 @@ jobs:
     needs: check_commit
     if: ${{ needs.check_commit.outputs.skip_ci != 'true' }}
     steps:
+      run: |
+        echo ${{ needs.check_commit.outputs.skip_ci }}
 
   build:
     runs-on: ubuntu-latest
