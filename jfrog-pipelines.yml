@@ -1,0 +1,21 @@
+resources:
+  - name: ci_skip_gitRepo
+    type: GitRepo
+    configuration:
+      gitProvider: GitHub
+      path: srz-zumix/ci-skip
+      branches:
+        include: master|^feature/.*
+pipelines:
+  - name: ci_skip
+    steps:
+      - name: spec
+        type: Bash
+        configuration:
+          inputResources:
+            - name: ci_skip_gitRepo
+        execution:
+          onExecute:
+            - pushd ${res_ci_skip_gitRepo_resourcePath}
+            - echo OK
+            - popd
