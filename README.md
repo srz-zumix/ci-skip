@@ -54,7 +54,7 @@ If you push more than one commit, only the last ("head") commit's message will b
 |[Travis CI](https://travis-ci.com/)|NO|
 |[wercker](http://www.wercker.com/)|NO|
 
-## Github commit status
+## GitHub commit status
 
 https://github.com/srz-zumix/ci-skip/commits/master
 
