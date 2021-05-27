@@ -45,7 +45,7 @@ If you push more than one commit, only the last ("head") commit's message will b
 |[Codeship](https://codeship.com/)|NO|
 |[Drone](https://cloud.drone.io/)|NO|
 |[GitHub Actions](https://github.com/features/actions)|YES (Status SKIPPED)|
-|[JFrog Pipelines](https://www.jfrog.com/confluence/display/JFROG/JFrog+Pipelines)||
+|[JFrog Pipelines](https://www.jfrog.com/confluence/display/JFROG/JFrog+Pipelines)|NO|
 |[Peakflow](https://www.peakflow.io/)|NO|
 |[Razorops](https://razorops.com/)|-|
 |[Scrutinizer](https://scrutinizer-ci.com)|NO|
