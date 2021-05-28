@@ -5,7 +5,7 @@ resources:
       gitProvider: GitHub
       path: srz-zumix/ci-skip
       branches:
-        include: master|^feature/.*
+        include: master|^feature/.*|^jfrog/.*
 pipelines:
   - name: ci_skip
     steps:
@@ -15,7 +15,14 @@ pipelines:
           inputResources:
             - name: ci_skip_gitRepo
         execution:
+          onStart:
+          - update_commit_status ci_skip_gitRepo # Status: "processing"
           onExecute:
+            - update_commit_status ci_skip_gitRepo # Status: "processing"
             - pushd ${res_ci_skip_gitRepo_resourcePath}
             - echo OK
             - popd
+          onFailure:
+            - update_commit_status ci_skip_gitRepo # Status: "failure"
+          onSuccess:
+            - update_commit_status ci_skip_gitRepo # Status: "success"
