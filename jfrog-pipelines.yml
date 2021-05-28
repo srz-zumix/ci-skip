@@ -5,7 +5,7 @@ resources:
       gitProvider: GitHub
       path: srz-zumix/ci-skip
       branches:
-        include: master|^feature/.*
+        include: master|^feature/.*|^jfrog/.*
 pipelines:
   - name: ci_skip
     steps:
