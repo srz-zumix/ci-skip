@@ -6,6 +6,11 @@ resources:
       path: srz-zumix/ci-skip
       branches:
         include: master|^feature/.*|^jfrog/.*
+  - name: ci_skip_cron_trigger
+    type: CronTrigger
+    configuration:
+      interval: '0 0 * * 2'
+
 pipelines:
   - name: ci_skip
     steps:
@@ -26,3 +31,13 @@ pipelines:
             - update_commit_status ci_skip_gitRepo # Status: "failure"
           onSuccess:
             - update_commit_status ci_skip_gitRepo # Status: "success"
+  - name: ci_skip_noop
+    steps:
+      - name: noop
+        type: Bash
+        configuration:
+          inputResources:
+            - name: ci_skip_cron_trigger
+        execution:
+          onExecute:
+            - echo Hello
