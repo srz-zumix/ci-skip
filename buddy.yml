@@ -4,6 +4,7 @@
   - type: "PUSH"
     refs:
       - master
+  priority: "NORMAL"
   auto_clear_cache: true
   actions:
   - action: "Execute: echo OK"
