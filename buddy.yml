@@ -6,7 +6,7 @@
       - master
   auto_clear_cache: true
   actions:
-  - action: "Execute: Always Success"
+  - action: "Execute: echo OK"
     type: "BUILD"
     working_directory: "/buddy/ci-skip"
     docker_image_name: "library/ubuntu"
@@ -17,5 +17,3 @@
     - "/:/buddy/ci-skip"
     cache_base_image: true
     shell: "BASH"
-    trigger_conditions:
-    - trigger_condition: "ALWAYS"
