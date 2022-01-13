@@ -17,4 +17,5 @@
     - "/:/buddy/ci-skip"
     cache_base_image: true
     shell: "BASH"
-    trigger_condition: "ALWAYS"
+    trigger_conditions:
+    - trigger_condition: "ALWAYS"
