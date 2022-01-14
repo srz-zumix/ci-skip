@@ -3,16 +3,19 @@
   events:
   - type: "PUSH"
     refs:
-      - master
+    - "refs/heads/master"
+  priority: "NORMAL"
   auto_clear_cache: true
+  clone_depth: 1
   actions:
-  - action: "Execute: Always Success"
+  - action: "Execute: echo OK"
     type: "BUILD"
     working_directory: "/buddy/ci-skip"
     docker_image_name: "library/ubuntu"
-    docker_image_tag: "16.04"
+    docker_image_tag: "18.04"
     execute_commands:
     - "echo OK"
-    mount_filesystem_path: "/buddy/ci-skip"
+    volume_mappings:
+    - "/:/buddy/ci-skip"
+    cache_base_image: true
     shell: "BASH"
-    trigger_condition: "ALWAYS"
