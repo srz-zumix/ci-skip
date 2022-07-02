@@ -21,7 +21,6 @@
 |[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-skip.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-skip/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-skip)|[![Semaphore 2.0 Build Status](https://srz-zumix.semaphoreci.com/badges/ci-skip/branches/master.svg)](https://srz-zumix.semaphoreci.com/projects/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|||
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#skipping-a-build)|[![Build Status](https://travis-ci.com/srz-zumix/ci-skip.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-skip)|:ballot_box_with_check:|:ballot_box_with_check:|[skip KEYWORD] or [KEYWORD skip]<br> (KEYWORD: ci, travis, travis ci, travis-ci, or travisci)| |
-|[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)|:ballot_box_with_check:|:ballot_box_with_check:| | |
 
 ## Only the head/last commit message is checked
 
@@ -52,7 +51,6 @@ If you push more than one commit, only the last ("head") commit's message will b
 |[Semaphore CI](https://semaphoreci.com)|NO|
 |[Semaphore CI 2.0](https://semaphoreci.com)|NO|
 |[Travis CI](https://travis-ci.com/)|NO|
-|[wercker](http://www.wercker.com/)|NO|
 
 ## GitHub commit status
 
